@@ -7,6 +7,8 @@
 ---
 
   ### Hello there 👋 (*General Kenobi...*)  
+He/Him
+
 Hi, I'm 15 years old, from Lausanne, Switzerland, learning as much things as I can, that's it!
   #### Find me here:
 <div id="badges">
