@@ -54,7 +54,7 @@ Hi, I'm 15 years old, from Lausanne, Switzerland, learning as much things as I c
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Paillat-dev&layout=compact&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
 
   <!--
-ADD FUSION 360 ADD OCTOPRINT ADD WIN11 ADD WIN10 ADD winftp
+ADD FUSION 360 ADD OCTOPRINT ADD WIN11 ADD WIN10 ADD winftp ADD easyeda ADD fritzing ADD 
 **Paillat-dev/Paillat-dev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
