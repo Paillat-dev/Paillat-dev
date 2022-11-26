@@ -1,10 +1,14 @@
 <div id="header" align="center">
   
-  ### Me now (probably):
+  ## Me now (probably):
   
-   <img src="https://media.giphy.com/media/7NoNw4pMNTvgc/giphy.gif" width="250"/>  
+   <img src="https://media.giphy.com/media/7NoNw4pMNTvgc/giphy.gif" width="250"/>
   
-  ### Hello there 👋 (*General Kenobi...*)
+---
+
+  ### Hello there 👋 (*General Kenobi...*)  
+Hi, I'm 15 years old, from Lausanne, Switzerland, learning as much things as I can, that's it!
+  #### Find me here:
 <div id="badges">
   <a href="https://electronique.cc/printables">
     <img src="https://img.shields.io/badge/Printables-orange?style=for-the-badge&logo=printables&logoColor=white" alt="LinkedIn Badge"/>
@@ -16,7 +20,9 @@
     <img src="https://img.shields.io/badge/electronique.cc-yellow?style=for-the-badge" alt="Twitter Badge"/>
   </a>
   </div>
-
+  
+---
+  
 ### :hammer_and_wrench: Languages and Tools :
 
 </div>
@@ -37,7 +43,14 @@
   <img src="https://github.com/devicons/devicon/blob/master/icons/visualstudio/visualstudio-plain.svg" title="Visualstudio" **alt="Visualstudio" width="40" height="40"/>
   <img src="https://github.com/devicons/devicon/blob/master/icons/wordpress/wordpress-plain.svg" title="Wordpress" **alt="Wordpress" width="40" height="40"/>
   <img src="https://github.com/devicons/devicon/blob/master/icons/woocommerce/woocommerce-original.svg" title="Woocommerce" **alt="Woocommerce" width="40" height="40"/>
-  
+
+---
+
+###  Stats (not really great):
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=Paillat-dev&theme=dark&background=000000)](https://git.io/streak-stats)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Paillat-dev&layout=compact&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
+
   <!--
 ADD FUSION 360 ADD OCTOPRINT ADD WIN11 ADD WIN10 ADD winftp
 **Paillat-dev/Paillat-dev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
