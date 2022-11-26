@@ -1,6 +1,6 @@
 <div id="header" align="center">
   
-  ## Me now (probably):
+  ### Me now (probably):
   
    <img src="https://media.giphy.com/media/7NoNw4pMNTvgc/giphy.gif" width="250"/>
   
