@@ -2,7 +2,7 @@
   
   ### Me now (probably):
   
-   <img src="https://media.giphy.com/media/7NoNw4pMNTvgc/giphy.gif" width="250"/>
+   <img src="[https://media.giphy.com/media/7NoNw4pMNTvgc/giphy.gif](https://media.tenor.com/Nx4gRgudzx4AAAAC/anime-typing.gif)" width="250"/>
   
 ---
 
