@@ -23,6 +23,8 @@ Hi, I'm 15 years old, from Lausanne, Switzerland, learning as much things as I c
   </a>
   </div>
   
+  https://links.paillat.dev
+  
 ---
   
 ### :hammer_and_wrench: Languages and Tools :
