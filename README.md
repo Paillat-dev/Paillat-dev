@@ -1,11 +1,5 @@
 <div id="header" align="center">
   
-  ### Me now (probably):
-  
-   <img src="https://media.tenor.com/Nx4gRgudzx4AAAAC/anime-typing.gif" width="250"/>
-  
----
-
   ### Hello there 👋 (*General Kenobi...*)  
 He/Him
 
