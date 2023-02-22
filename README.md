@@ -7,7 +7,7 @@ Hi, I'm 15 years old, from Lausanne, Switzerland, learning as much things as I c
   #### Find me here:
 <div id="badges">
   <a href="https://electronique.cc/printables">
-    <img src="https://img.shields.io/badge/Printables-orange?style=for-the-badge&logo=printables&logoColor=white" alt="LinkedIn Badge"/>
+    <img width="300" src="https://img.shields.io/badge/Printables-orange?style=for-the-badge&logo=printables&logoColor=white" alt="LinkedIn Badge"/>
   </a>
   <a href="https://discord.com/users/707196665668436019">
     <img src="https://img.shields.io/badge/Discord-blue?style=for-the-badge&logo=discord&logoColor=white" alt="Youtube Badge"/>
