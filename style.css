@@ -1,0 +1,266 @@
+/* Global styles */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    font-family: laca-text-variable, sans-serif;
+    font-variation-settings: "wght" 400;
+	line-height: 1.5;
+	color: #fff;
+	background: linear-gradient(to bottom right, #000000, #022EA8);
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #022EA8;
+}
+
+/* Header styles */
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 50px;
+	background-color: rgba(255, 255, 255, 0.8);
+	z-index: 999;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+.logo img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.logo h1 {
+	font-size: 24px;
+    font-family: input-mono-compressed, monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav ul li {
+	margin-left: 20px;
+}
+
+nav ul li a {
+	font-size: 18px;
+    font-family: input-mono-compressed, monospace;
+    font-style: normal;
+	font-weight: 700;
+}
+
+h2 {
+    font-family: input-mono-compressed, monospace;
+	font-weight: 700;
+}
+
+/* Hero styles */
+
+.hero {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-image: url(hero-image.jpg);
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+
+.hero-text {
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.hero-text h2 {
+    font-size: 48px;
+	margin-bottom: 20px;
+}
+
+.hero-text p {
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.hero-objects {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero-object {
+	height: 50px;
+	width: 50px;
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 50%;
+	margin: 0 10px;
+	animation: moveObject 2s ease-in-out infinite alternate;
+}
+
+.hero-object:nth-of-type(1) {
+    animation-delay: 0s;
+  }
+  
+  .hero-object:nth-of-type(2) {
+    animation-delay: 0.5s;
+  }
+  
+  .hero-object:nth-of-type(3) {
+    animation-delay: 1s;
+  }
+  
+  @keyframes moveObject {
+    0% {
+      transform: translateY(0) rotate(0);
+      opacity: 1;
+    }
+    50% {
+      transform: translateY(-50px) rotate(360deg);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateY(0) rotate(0);
+      opacity: 1;
+    }
+  }
+  /* Skills styles */
+
+.skills {
+	padding: 100px 50px;
+}
+
+.skills h2 {
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.devicons {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.devicon-html5-plain:before {
+	content: "\f13b";
+}
+
+.devicon-css3-plain:before {
+	content: "\f13c";
+}
+
+.devicon-javascript-plain:before {
+	content: "\f3b9";
+}
+
+.devicon-python-plain:before {
+	content: "\f3dc";
+}
+
+.devicons i {
+	font-size: 60px;
+	margin: 10px;
+	color: #fff;
+	transition: all 0.3s ease;
+}
+
+.devicons i:hover {
+	transform: scale(1.2);
+}
+
+/* Projects styles */
+
+.projects {
+	padding: 100px 50px;
+}
+
+.projects h2 {
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+
+.project {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #00217E;
+    }
+    /* Footer styles */
+    
+    footer {
+    background-color: #00217E;
+    color: #fff;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+    
+    footer p {
+    font-size: 16px;
+    font-family: input-mono-compressed, monospace;
+    font-style: normal;
+    font-weight: 300;
+    }
+    
+    .social {
+    display: flex;
+    align-items: center;
+    }
+    
+    .social a {
+    color: #fff;
+    font-size: 24px;
+    font-family: input-mono-compressed, monospace;
+    font-style: normal;
+    font-weight: 300;
+    margin-right: 20px;
+    transition: all 0.3s ease;
+    }
+    
+    .social a:hover {
+    transform: translateY(-5px);
+    }
