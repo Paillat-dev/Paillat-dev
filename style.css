@@ -41,6 +41,7 @@ header {
   height: calc(19% - 40px);
   margin: 20px;
   backdrop-filter: blur(200px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 nav a {
@@ -53,12 +54,8 @@ nav a:hover {
     color: #fff;
 }
 
-.logo a {
-  display: flex;
-  align-items: center;
-}
 
-.logo a img {
+.logo-link img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -72,6 +69,8 @@ nav a:hover {
   font-weight: 700;
   font-style: normal;
   text-decoration: none;  
+  display: flex;
+  align-items: center;
 }
 
 nav ul {
