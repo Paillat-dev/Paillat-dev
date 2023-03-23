@@ -12,7 +12,7 @@ body {
 	font-style: normal;
 	line-height: 1.5;
 	color: #fff;
-	background: linear-gradient(to bottom right, #000000, #022EA8);
+	background: linear-gradient(to bottom right, #ff0000, #022EA8, #ffa500);
 }
 
 h2 {
@@ -25,23 +25,31 @@ h3 {
 	font-weight: 700;
 	font-style: normal;
   }
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffa500;
+    z-index: 999;
+    border-radius: 50px;
+    width: calc(100% - 40px);
+    height: calc(19% - 40px);
+    margin: 20px;
+    isolation: isolate;
+    /* we have a problem here: the blur effect uses also the page's text, so we need to isolate the header from the rest of the page */
 
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background: linear-gradient(to bottom right, #022EA8, #000000);
-  z-index: 999;
-  border-radius: 30px;
-  width: calc(100% - 40px);
-  height: calc(15% - 40px);
-  margin: 20px;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  }
+
+header.scrolled {
+  background-color: rgba(255, 165, 0, 0.0);
+  backdrop-filter: blur(300px);
+  isolation: isolate; /* add this line */
+
 }
 
 nav a {
@@ -160,7 +168,7 @@ nav ul li a {
   }
   50% {
     transform: translateY(-50px) rotate(0);
-    opacity: 0.5;
+    opacity: 0.3;
   }
   100% {
     transform: translateY(0) rotate(0);
@@ -213,24 +221,20 @@ nav ul li a {
 
 
 .project {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.0);
   border-radius: 15px;
   padding: 20px;
   margin-bottom: 50px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  color: #00217E;
-  box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, 5);
-
-}
-
-.project:hover {
-	box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.5);
+  color: #fff;
+  backdrop-filter: blur(200px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .project a {
-  color: #00217E;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -250,7 +254,7 @@ nav ul li a {
   position: absolute;
   bottom: -5px;
   left: 0;
-  background-image: linear-gradient(to right, transparent, #00217E, transparent);
+  background-image: linear-gradient(to right, transparent, #fff, transparent);
   transition: transform 0.3s ease;
   transform: scaleX(0);
   transform-origin: center;
