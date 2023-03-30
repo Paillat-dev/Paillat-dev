@@ -92,10 +92,12 @@ nav ul li a {
 
 @media screen and (max-width: 749px) {
   .nav {
-    align-self: flex-start;
+    display: flex;
+    align-items: center;
   }
   .nav-title {
-    align-self: right;
+    display: flex;
+    align-items: center;
   }
 
   .nav ul {
@@ -144,7 +146,7 @@ nav ul li a {
     }
   
 }
-
+}
 
 /* Show the menu on larger screens */
 @media screen and (min-width: 750px) {
@@ -153,11 +155,10 @@ nav ul li a {
   }
   
   .nav-title {
-    display: none !important;
+    display: none;
   }
 }
 
-}
 
 
 /* Hide menu on larger screens */
