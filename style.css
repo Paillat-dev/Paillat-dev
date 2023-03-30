@@ -90,6 +90,89 @@ nav ul li a {
   font-weight: 700;
 }
 
+@media screen and (max-width: 749px) {
+  .nav {
+    align-self: flex-start;
+  }
+  .nav-title {
+    align-self: right;
+  }
+
+  .nav ul {
+    display: none;
+  }
+
+  .nav ul li {
+    margin-left: 0;
+  }
+
+  .nav:hover .nav-list {
+    display: block;
+    list-style: none;
+    padding: 0;
+    padding: 15px;
+    border-radius: 10px;
+    backdrop-filter: blur(200px);
+    -webkit-backdrop-filter: blur(200px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Hide the menu title when hovering the menu or the list */
+  .nav:hover .nav-title {
+    display: none;
+  }
+  /* animate the menu entrace/exit */
+  .nav-list {
+    animation: slideIn 0.5s ease-in-out;
+  }
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+      backdrop-filter: blur(0);
+      -webkit-backdrop-filter: blur(0);
+
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(200px);
+      -webkit-backdrop-filter: blur(200px);
+
+    }
+  
+}
+
+
+/* Show the menu on larger screens */
+@media screen and (min-width: 750px) {
+  nav ul {
+    display: flex;
+  }
+  
+  .nav-title {
+    display: none !important;
+  }
+}
+
+}
+
+
+/* Hide menu on larger screens */
+@media screen and (min-width: 750px) {
+  nav ul {
+    display: flex;
+  }
+  
+  .nav-title {
+    display: none;
+  }
+}
+
+
+
 /* Hero styles */
 
 .hero {
