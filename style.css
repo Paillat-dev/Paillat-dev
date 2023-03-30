@@ -91,10 +91,6 @@ nav ul li a {
 }
 
 @media screen and (max-width: 749px) {
-  .nav {
-    display: flex;
-    align-items: center;
-  }
   .nav-title {
     display: flex;
     align-items: center;
@@ -119,14 +115,14 @@ nav ul li a {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
   
-  /* Hide the menu title when hovering the menu or the list */
   .nav:hover .nav-title {
     display: none;
   }
-  /* animate the menu entrace/exit */
+  
   .nav-list {
     animation: slideIn 0.5s ease-in-out;
   }
+  
   @keyframes slideIn {
     0% {
       transform: translateX(-100%);
