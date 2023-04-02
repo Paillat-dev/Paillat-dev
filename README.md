@@ -17,6 +17,7 @@ Hi, I'm 15 years old, from Lausanne, Switzerland, learning as much things as I c
   </a>
   </div>
   
+  https://paillat.dev
   https://links.paillat.dev
   
 ---
