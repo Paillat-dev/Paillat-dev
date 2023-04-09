@@ -321,6 +321,8 @@ nav ul li a {
 
 .project a span {
   position: relative;
+  font-style: italic;
+  font-weight: 200;
 }
 
 .project ul {
@@ -405,24 +407,30 @@ footer p {
   align-items: center;
 }
 
-.social a {
-  margin-right: 20px;
-  transition: all 0.3s ease;
-  text-decoration: none;
-}
 
-.social a:hover {
-  transform: translateY(-5px);
-}
-
-.social a i {
+.social ul li {
 	color: #fff;
 	font-size: 24px;
 	font-family: input-mono-compressed, monospace;
 	font-weight: 300;
 	font-style: normal;
+  margin-right: 20px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  list-style-type: none;
   }
 
-.social a i:hover {
+.social ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.social ul {
+  list-style-type: none;
+  /*disppay horizontal list*/
+  display: flex;
+}
+.social ul li:hover {
 	font-style: italic;
+  transform: translateY(-5px);
 }
