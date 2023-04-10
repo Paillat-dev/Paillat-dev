@@ -3,11 +3,12 @@
 <head>
 	<title>Paillat's Homepage</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-    <link rel="icon" href="https://avatars.githubusercontent.com/u/75439456" type="image/x-icon">
-    <link rel="stylesheet" href="https://use.typekit.net/dka1eiv.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="/includes/style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+	<link rel="icon" href="https://avatars.githubusercontent.com/u/75439456" type="image/x-icon">
+	<link rel="stylesheet" href="https://use.typekit.net/dka1eiv.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="/includes/main.js"></script>
 </head>
 <body>
 	<header>
@@ -40,13 +41,15 @@
 		<div class="skills">
 			<h2>Skills</h2>
 			<div class="devicons">
-				<i class="devicon-python-plain"></i>
-                <i class="devicon-cplusplus-plain"></i>
-                <i class="devicon-arduino-plain"></i>
-                <i class="devicon-wordpress-plain"></i>
-                <i class="devicon-woocommerce-plain"></i>
-                <i class="devicon-docker-plain"></i>
-			</div>
+				<ul>
+					<li><a href="https://python.org" class="devicon-python-plain"></a></li>
+					<li><a href="https://cplusplus.com" class="devicon-cplusplus-plain"></a></li>
+					<li><a href="https://www.arduino.cc/" class="devicon-arduino-plain"></a></li>
+					<li><a href="https://wordpress.org/" class="devicon-wordpress-plain"></a></li>
+					<li><a href="https://woocommerce.com/" class="devicon-woocommerce-plain"></a></li>
+					<li><a href="https://www.docker.com/" class="devicon-docker-plain"></a></li>
+					<li><a href="https://git-scm.com/" class="devicon-git-plain"></a></li>						
+				</div>
 		</div>
 	</section>
 	<section id="support">
@@ -54,14 +57,13 @@
 			<h2>Support me</h2>
 			<div class="supportbuttons">
 				<div class="supportbutton">
-					<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="paillat" data-color="#022EA8" data-emoji=""  data-font="Inter" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
+					<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="paillat" data-color="#022EA8" data-emoji=""  data-font="Inter" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" class="bmc-button"></script>
 				</div>
 			</div>
 		</div>
 	</section>
 	<div id="footer"></div>
 	<script src="/script.js"></script>
-	
 	<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="paillat" data-description="Support me on Buy me a coffee!" data-message="" data-color="#022EA8" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
 </body>
 </html>

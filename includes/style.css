@@ -261,21 +261,48 @@ nav ul li a {
   text-align: center;
 }
 
-.devicons {
+.devicons ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.devicons i {
+.devicons ul li {
   font-size: 60px;
   margin: 10px;
   color: #fff;
   transition: all 0.3s ease;
+  list-style: none;
+  text-decoration: none;
+}
+.devicons ul a{
+  color: #fff;
+  text-decoration: none;
 }
 
-.devicons i:hover {
+.devicons ul li:hover {
   transform: scale(1.2);
+  cursor: pointer;
+  /* add the following for the moving 3COLORS gradient */
+  background-image: linear-gradient(45deg, #c5f9d7, #f7d486, #f27a7d, #c5f9d7, #f7d486, #f27a7d, #c5f9d7);
+  background-size: 300%;
+  animation: gradient 2.5s linear infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  
+  @keyframes gradient {
+  0% {
+  background-position: 0%;
+  }
+  100% {
+  background-position: 100%;
+  }
+  0% {
+  background-position: 0%;
+
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -355,7 +382,6 @@ nav ul li a {
 }
 
 /* Support styles */
-
 .support {
   padding: 100px 50px;
 }
@@ -376,10 +402,17 @@ nav ul li a {
   position: relative;
 }
 
-.supportbutton {
-  /* add rounded corners to the button */
-  border-radius: 15px;
+.bmc-btn {
+  transition: transform 0.3s ease-in-out;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.bmc-btn:hover {
+  transform: scale(1.15);
+}
+
+.bmc-btn:active {
+  box-shadow: 0 0 10px inset rgba(0, 0, 0, 0.5);
 }
 /* Footer styles */
 
