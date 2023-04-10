@@ -418,15 +418,44 @@ nav ul li a {
 
 footer {
   background-color: #00217E;
-  color: #fff;
-  padding: 50px;
+}
+
+.click-on-rick {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 20px;
+}
+
+.click-on-rick svg {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  transition: all 0.3s ease;
+  animation: moooove 2s ease-in-out infinite;
+}
+
+@keyframes moooove {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-350%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.actual-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  padding: 20px;
 }
 
-footer p {
+.actual-footer p {
   font-size: 16px;
   font-family: input-mono-compressed, monospace;
   font-style: no;
@@ -466,4 +495,9 @@ footer p {
 .social ul li:hover {
 	font-style: italic;
   transform: translateY(-5px);
+}
+
+.rick {
+  text-decoration: none;
+  color: #fff;
 }
