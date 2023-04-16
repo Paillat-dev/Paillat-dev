@@ -5,6 +5,7 @@ type: post
 author: Paillat
 image: https://source.unsplash.com/random/?sample
 title: Sample Article in Markdown
+description: This is a sample article in Markdown that showcases various Markdown syntax. The purpose of this article is to test the Static Site Generator and the article hasn't any other purpose aside learning how to use the Static Site Generator.
 ---
 # Sample Article in Markdown
 <img src="<!-- image -->" alt="post main image" class="post-main-image">
