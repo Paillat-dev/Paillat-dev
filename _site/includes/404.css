@@ -1,11 +1,14 @@
-        body {
-            background-image: url(https://source.unsplash.com/random/?space);
-            background-size: auto;
+        html {
+            background-image: url(https://source.unsplash.com/random/?space,universe,stars,night,sky);
+            background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            font-family: Arial, sans-serif;
-        }
-
+            height: auto;
+            width: auto;
+            min-height: 100%;
+            min-width: 100%;
+          }
+        
         .wrapper {
             position: absolute;
             top: 50%;
@@ -16,18 +19,25 @@
         }
         h1 {
             font-size: 5rem;
+            font-family: input-mono-compressed, monospace;
+            font-weight: 700;
             margin-bottom: 20px;
             color: #ffffff;
-            text-shadow: 2px 2px 20px #3498db;
-            animation: float 3s ease-in-out infinite;
+            text-shadow: 0px 0px 20px #5534db;
+            animation: appear 2.6s linear;
         }
         p {
             font-size: 1.2rem;
+            font-family: futura-pt, sans-serif; /* why sans-serif? Because it's the default font for the body . WHat does that mean?  It means that if you don't specify a font, it will use the default font.  */
+            font-weight: 500;
             margin-bottom: 30px;
             color: #ffffff;
+            animation: disappear-reappear 4s linear infinite;
         }
 
         a {
+            font-family: futura-pt, sans-serif;
+            font-weight: 500;
             text-decoration: none;
             color: #3498db;
             font-size: 1.1rem;
@@ -42,18 +52,38 @@
             color: #f0f0f0;
         }
 
-        @keyframes float {
+        @keyframes appear {
             0% {
-                transform: translateY(0);
-            }
-            50% {
-                transform: translateY(-20px);
+                opacity: 0;
+                transform: translateY(20vh);
             }
             100% {
                 transform: translateY(0);
+                opacity: 1;
             }
         }
 
-        .floating {
-            animation: float 3s ease-in-out infinite;
-        }
+        @keyframes disappear-reappear {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            25% {
+                opacity: 0;
+                transform: translateY(20vh);
+
+            }
+            70% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+            85% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+            100% {
+              opacity: 0;
+              transform: translateY(-40px);
+            }
+          }
