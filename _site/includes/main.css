@@ -510,7 +510,7 @@ footer {
 }
 
 
-/*posts styles*/
+/*Posts styles*/
 
 .posts-list {
   display: flex;
@@ -533,7 +533,7 @@ footer {
   backdrop-filter: blur(200px);
   -webkit-backdrop-filter: blur(200px);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  width: 33%;
+  width: calc(((vw - 768) / (1024 - 768)) );
 }
 
 .post-image {
