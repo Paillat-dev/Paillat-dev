@@ -2,7 +2,7 @@
 <html>
  <head>
   <title>
-   Blog - My Website
+   Contact - My Website
   </title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <link href="/includes/main.css" rel="stylesheet" type="text/css"/>
@@ -50,27 +50,24 @@
     </ul>
    </nav>
   </header>
-  <div class="posts-list">
-   <div class="post-block">
-    <img alt="Sample Article in Markdown" class="post-image" src="https://source.unsplash.com/random/?sample"/>
-    <h2 class="post-title">
-     <a href="/blog/test.html">
-      Sample Article in Markdown
-     </a>
-    </h2>
-    <p class="post-description">
-     This is a sample article in Markdown that showcases various Markdown syntax. The purpose of this article is to test the Static Site Generator and the article hasn't any other purpose aside learning how to use the Static Site Generator.
-    </p>
-    <div class="post-meta">
-     <span class="post-date">
-      17 April 2023
-     </span>
-     <span class="post-author">
-      Paillat
-     </span>
-    </div>
-   </div>
-  </div>
+  <section class="contact">
+   <h2>
+    Contact
+   </h2>
+   <form action="https://formspree.io/f/mzbqyrdg" method="POST">
+    <label>
+     Your email:
+     <input name="email" type="email"/>
+    </label>
+    <label>
+     Your message:
+     <textarea name="message"></textarea>
+    </label>
+    <button type="submit">
+     Send
+    </button>
+   </form>
+  </section>
   <footer>
    <div class="click-on-rick">
     <svg class="bi bi-arrow-down-circle" fill="currentColor" height="16" viewbox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">

@@ -604,3 +604,70 @@ footer {
   font-weight: 300;
   color: #fff;
 }
+.contact
+{
+  padding: 100px 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+form * {
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+form input, form textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/*remove the icon from textareas*/
+form textarea {
+  resize: none;
+  height: 200px;
+}
+
+form button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: input-mono-compressed, monospace;
+  font-weight: 300;
+  font-style: normal;
+  transition: all 0.3s ease;
+}
+
+form button:hover {
+  background-color: #00217E;
+  color: #fff;
+}
+
+form button:active {
+  /* add inset shadow to make it look like the button is being pressed */
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 1);
+  transform: translateY(2px);
+}
+
+.contact h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  contact {
+    margin-top: 80px; /* add some padding to the top of the projects section */
+  }
+}
