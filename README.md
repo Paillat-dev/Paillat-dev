@@ -3,7 +3,7 @@
   ### Hello there 👋 (*General Kenobi...*)  
 He/Him
 
-Hi, I'm 15 years old, from Lausanne, Switzerland, learning as much things as I can, that's it!
+Hi, I'm ~~15~~ 16 years old, from Switzerland.
   #### Find me here:
 <div id="badges">
   <a href="https://electronique.cc/printables">
