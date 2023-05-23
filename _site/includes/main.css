@@ -668,6 +668,6 @@ form button:active {
 
 @media screen and (min-width: 768px) {
   contact {
-    margin-top: 80px; /* add some padding to the top of the projects section */
+    padding-top: 80px; /* add some padding to the top of the projects section */
   }
 }
