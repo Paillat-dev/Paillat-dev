@@ -529,7 +529,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 10vw;
+  padding-top: calc(min(15vh, 20vw) + 40px);
 }
 
 .post-block {
