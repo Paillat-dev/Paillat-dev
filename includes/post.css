@@ -51,6 +51,8 @@ header {
   margin: 20px;
   backdrop-filter: blur(200px);
   -webkit-backdrop-filter: blur(200px);
+  -moz-backdrop-filter: blur(200px);
+  -o-backdrop-filter: blur(200px);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -124,7 +126,9 @@ nav ul li a {
     padding: 15px;
     border-radius: 10px;
     backdrop-filter: blur(200px);
-    -webkit-backdrop-filter: blur(200px);
+    -webkit-backdrop-filter: blur(200px);  
+    -moz-backdrop-filter: blur(200px);
+    -o-backdrop-filter: blur(200px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
   
@@ -143,6 +147,9 @@ nav ul li a {
       box-shadow: 0 0 10px rgba(0, 0, 0, 0);
       backdrop-filter: blur(0);
       -webkit-backdrop-filter: blur(0);
+      -moz-backdrop-filter: blur(200px);
+      -o-backdrop-filter: blur(200px);
+  
 
     }
     100% {
@@ -151,6 +158,9 @@ nav ul li a {
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
       backdrop-filter: blur(200px);
       -webkit-backdrop-filter: blur(200px);
+      -moz-backdrop-filter: blur(200px);
+      -o-backdrop-filter: blur(200px);
+  
 
     }
   
