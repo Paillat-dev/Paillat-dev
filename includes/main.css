@@ -370,6 +370,7 @@ nav ul li a {
   position: relative;
   font-style: italic;
   font-weight: 200;
+  word-break: break-all;
 }
 
 .project ul {
