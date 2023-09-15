@@ -24,6 +24,7 @@ Hi, I'm 16 years old, from Switzerland.
   </div>
   
   https://paillat.dev
+  https://blog.paillat.dev
   https://links.paillat.dev
   
 ---
