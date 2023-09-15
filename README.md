@@ -7,13 +7,16 @@ Hi, I'm 16 years old, from Switzerland.
   #### Find me here:
 <div id="badges">
   <a href="https://electronique.cc/printables">
-    <img src="https://img.shields.io/badge/Printables-orange?style=for-the-badge&logo=printables&logoColor=white" alt="LinkedIn Badge"/>
+    <img src="https://img.shields.io/badge/Printables-orange?style=for-the-badge&logo=printables&logoColor=white" alt="Printables Badge"/>
   </a>
   <a href="https://discord.com/users/707196665668436019">
-    <img src="https://img.shields.io/badge/Discord-blue?style=for-the-badge&logo=discord&logoColor=white" alt="Youtube Badge"/>
+    <img src="https://img.shields.io/badge/Discord-blue?style=for-the-badge&logo=discord&logoColor=white" alt="discord Badge"/>
   </a>
   <a href="https://kick.com/paillat">
-    <img src="https://img.shields.io/badge/kick-green?style=for-the-badge&logo=kick&logoColor=white" alt="Youtube Badge"/>
+    <img src="https://img.shields.io/badge/kick-green?style=for-the-badge&logo=kick&logoColor=white" alt="kick Badge"/>
+  </a>
+  <a href="https://www.youtube.com/@paillat">
+    <img src="https://img.shields.io/badge/YouTube-res?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Badge"/>
   </a>
   <a href="https://nicebots.xyz">
     <img src="https://img.shields.io/badge/nicebots.xyz-blue?style=for-the-badge" alt="website"/>
