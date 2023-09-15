@@ -3,7 +3,7 @@
   ### Hello there 👋 (*General Kenobi...*)  
 He/Him
 
-Hi, I'm ~~15~~ 16 years old, from Switzerland.
+Hi, I'm 16 years old, from Switzerland.
   #### Find me here:
 <div id="badges">
   <a href="https://electronique.cc/printables">
@@ -12,8 +12,11 @@ Hi, I'm ~~15~~ 16 years old, from Switzerland.
   <a href="https://discord.com/users/707196665668436019">
     <img src="https://img.shields.io/badge/Discord-blue?style=for-the-badge&logo=discord&logoColor=white" alt="Youtube Badge"/>
   </a>
-  <a href="https://electronique.cc">
-    <img src="https://img.shields.io/badge/electronique.cc-yellow?style=for-the-badge" alt="Twitter Badge"/>
+  <a href="https://kick.com/paillat">
+    <img src="https://img.shields.io/badge/kick-green?style=for-the-badge&logo=kick&logoColor=white" alt="Youtube Badge"/>
+  </a>
+  <a href="https://nicebots.xyz">
+    <img src="https://img.shields.io/badge/nicebots.xyz-blue?style=for-the-badge" alt="website"/>
   </a>
   </div>
   
@@ -45,7 +48,7 @@ Hi, I'm ~~15~~ 16 years old, from Switzerland.
 
 ---
 
-###  Stats (not really great):
+###  Stats (not really great maybe idk you judge):
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=Paillat-dev&theme=dark&background=000000)](https://git.io/streak-stats)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Paillat-dev&layout=compact&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
