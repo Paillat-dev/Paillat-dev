@@ -28,6 +28,9 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Zurich
+          plugin_introduction: yes
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
           plugin_code: yes
           plugin_code_days: 3
           plugin_code_lines: 12
