@@ -1,6 +1,4 @@
-<picture>
-  <img src="/github-metrics.svg" alt="Metrics">
-</picture>
+  ![metrics](/github-metrics.svg)
 <!--
 <p align="center">
   <img src="url_to_a_banner_image_representing_your_interests" alt="Banner Image" />
