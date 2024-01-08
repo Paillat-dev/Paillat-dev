@@ -1,6 +1,6 @@
 <h1 align="center">Hi, I'm Paillat!</h1>
 
-![metrics](./github-metrics.svg)
+<img src="/github-metrics.svg" alt="Metrics" width="100%">
 
 <!--
 <p align="center">
