@@ -62,6 +62,5 @@ jobs:
           plugin_reactions_limit_discussions_comments: 100
           plugin_reactions_limit_issues: 100
           plugin_licenses: yes
-          plugin_licenses_setup: pip install -r requirements.txt
           plugin_licenses_legal: yes
           plugin_licenses_ratio: yes
