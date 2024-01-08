@@ -1,5 +1,6 @@
-<img src="/github-metrics.svg" alt="Metrics" height="auto" width="100%">
-
+<picture>
+  <img src="/github-metrics.svg" alt="Metrics">
+</picture>
 <!--
 <p align="center">
   <img src="url_to_a_banner_image_representing_your_interests" alt="Banner Image" />
