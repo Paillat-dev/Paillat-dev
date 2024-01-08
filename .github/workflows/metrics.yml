@@ -17,3 +17,13 @@ jobs:
       - uses: Paillat-dev/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          plugin_languages: yes
+          plugin_languages_indepth: no
+          plugin_licenses: yes
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: no
+          config_timezone: Europe/Zurich
+          plugin_reactions: yes
+          plugin_reactions_limit: 100
+          plugin_reactions_details: percentage
