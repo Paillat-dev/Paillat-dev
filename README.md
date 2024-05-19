@@ -6,7 +6,7 @@
 </p>
 -->
 <p align="center">
-  A 16-year-old tech enthusiast from Switzerland passionate about 3D printing, electronics, and developing Discord bots.
+  A 17-year-old tech enthusiast from Switzerland passionate about 3D printing, electronics, and developing Discord bots.
 </p>
 
 <h2 align="center">🚀 About Me</h2>
