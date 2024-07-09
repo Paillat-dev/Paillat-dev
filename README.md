@@ -16,7 +16,7 @@
 
 <h2 align="center">🔗 Connect with Me</h2>
 <p align="center">
-  <a href="https://www.linkedin.com/in/j%C3%A9r%C3%A9mie-cotti-0b8a152a5/">
+  <a href="https://www.linkedin.com/in/paillat-dev/">
     <img src="linkedin.svg" alt="LinkedIn" width="40" height="40"/>
   </a>
   <a href="https://twitter.com/LatPail">
