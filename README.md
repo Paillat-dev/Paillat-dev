@@ -1,4 +1,3 @@
-<img src="/github-metrics.svg" width="100%">
 
 <p align="center">
   A 17-year-old tech enthusiast from Switzerland passionate about 3D printing, electronics, ML and LLMs.
