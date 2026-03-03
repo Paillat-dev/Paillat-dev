@@ -1,5 +1,3 @@
-![](https://github-readme-stats.vercel.app/api?username=Paillat-dev&show_icons=true&theme=algolia&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
+> If we were unable to distinguish between them, then the only lives worthy of respect would be those that resemble our own-an assertion of narcissism, supremacy, and cultural arrogance that rejects any ethical encounter with difference.
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=paillat-dev&theme=algolia&column=5)](https://github.com/ryo-ma/github-profile-trophy)
-
-All my links here: https://bento.me/paillat
+https.//paillat.dev
