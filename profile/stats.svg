@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Paillat's GitHub Stats, Rank: A+</title>
-        <desc id="descId">Total Stars Earned: 132, Total Commits  (last year) : 1221, Total PRs: 634, Total Issues: 263, Contributed to (last year): 64</desc>
+        <desc id="descId">Total Stars Earned: 132, Total Commits  (last year) : 1211, Total PRs: 638, Total Issues: 263, Contributed to (last year): 64</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 28.265753839416092;
+        stroke-dashoffset: 28.305119469348696;
       }
     }
   
@@ -192,7 +192,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >634</text>
+      >638</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
